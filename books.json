@@ -1,5 +1,17 @@
 [
-    "Chakra Samhita",
-    "Chankaya",
-    "The Intelligent Investor By Benjamin Graham"
+    {
+        "name": "Chakra Samhita",
+        "file": "./pdfs/Chakra Samhita.pdf",
+        "cover": "./pdfs/Chakra Samhita.jpg"
+    },
+    {
+        "name": "Chankaya",
+        "file": "./pdfs/Chankaya.pdf",
+        "cover": "./pdfs/Chankaya.jpg"
+    },
+    {
+        "name": "The Intelligent Investor By Benjamin Graham",
+        "file": "./pdfs/The Intelligent Investor By Benjamin Graham.pdf",
+        "cover": "./pdfs/The Intelligent Investor By Benjamin Graham.jpg"
+    }
 ]

@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Search</title>
+    <title>Book Search - Free Educational PDFs</title>
     <script>
         async function loadBooks() {
             try {
                 let response = await fetch("books.json");
                 let books = await response.json();
-                let bookList = document.getElementById("book-list");
 
+                // Sort books alphabetically
+                books.sort((a, b) => a.name.localeCompare(b.name));
+
+                let bookList = document.getElementById("book-list");
                 bookList.innerHTML = books.map(book => 
-                    `<li><a href="${book.file}" target="_blank">${book.name}</a></li>`
+                    `<li style="margin-bottom: 20px;">
+                        <a href="${book.file}" target="_blank" style="font-size: 18px; font-weight: bold;">${book.name}</a>
+                        <br>
+                        <img src="${book.cover}" alt="Cover of ${book.name}" style="width: 120px; height: 160px; margin-top: 5px; border: 1px solid #ccc;">
+                    </li>`
                 ).join("");
             } catch (error) {
                 console.error("Error loading books:", error);
@@ -33,7 +40,11 @@
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; margin: 50px; background-color: #f4f4f4;">
 
-    <h2 style="color: #333;">Book Search</h2>
+    <h1 style="color: #007BFF;">Welcome to Pancholi's Free PDF Library 📚</h1>
+    <p style="font-size: 16px; max-width: 600px; margin: auto;">
+        This website allows you to **search and read books for educational purposes** – completely **free of charge**!  
+        Enter a book name below to find and read it instantly.
+    </p>
 
     <div style="margin: 20px auto; max-width: 400px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
         <input 
