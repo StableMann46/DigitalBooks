@@ -1,5 +1,25 @@
 [
     {
+        "name": "All the light we cannot see",
+        "file": "./pdfs/All the light we cannot see.pdf",
+        "cover": "./pdfs/All the light we cannot see.jpg"
+    },
+    {
+        "name": "atomic habits",
+        "file": "./pdfs/atomic habits.pdf",
+        "cover": "./pdfs/atomic habits.jpg"
+    },
+    {
+        "name": "BHAKTHI YOGA -by-SWAMI VIVEKANANDA",
+        "file": "./pdfs/BHAKTHI YOGA -by-SWAMI VIVEKANANDA.pdf",
+        "cover": "./pdfs/BHAKTHI YOGA -by-SWAMI VIVEKANANDA.jpg"
+    },
+    {
+        "name": "Can\u2019t_Hurt_Me_Master_Your_Mind_and_Defy_the_Odds_by_David_Goggins",
+        "file": "./pdfs/Can\u2019t_Hurt_Me_Master_Your_Mind_and_Defy_the_Odds_by_David_Goggins.pdf",
+        "cover": "./pdfs/Can\u2019t_Hurt_Me_Master_Your_Mind_and_Defy_the_Odds_by_David_Goggins.jpg"
+    },
+    {
         "name": "Chakra Samhita",
         "file": "./pdfs/Chakra Samhita.pdf",
         "cover": "./pdfs/Chakra Samhita.jpg"
@@ -10,8 +30,123 @@
         "cover": "./pdfs/Chankaya.jpg"
     },
     {
+        "name": "Everything is Fucked - Mark Manson",
+        "file": "./pdfs/Everything is Fucked - Mark Manson.pdf",
+        "cover": "./pdfs/Everything is Fucked - Mark Manson.jpg"
+    },
+    {
+        "name": "financial_management",
+        "file": "./pdfs/financial_management.pdf",
+        "cover": "./pdfs/financial_management.jpg"
+    },
+    {
+        "name": "Four Chapters on Freedom (Commentary on Yoga Sutras)  Swami Satyananda Saraswati _text",
+        "file": "./pdfs/Four Chapters on Freedom (Commentary on Yoga Sutras)  Swami Satyananda Saraswati _text.pdf",
+        "cover": "./pdfs/Four Chapters on Freedom (Commentary on Yoga Sutras)  Swami Satyananda Saraswati _text.jpg"
+    },
+    {
+        "name": "how-to-win-friends-and-influence-people",
+        "file": "./pdfs/how-to-win-friends-and-influence-people.pdf",
+        "cover": "./pdfs/how-to-win-friends-and-influence-people.jpg"
+    },
+    {
+        "name": "Ikigai_the_Japanese_secret_to_a_long_and_happy_life_PDFDrive_PDFConverted",
+        "file": "./pdfs/Ikigai_the_Japanese_secret_to_a_long_and_happy_life_PDFDrive_PDFConverted.pdf",
+        "cover": "./pdfs/Ikigai_the_Japanese_secret_to_a_long_and_happy_life_PDFDrive_PDFConverted.jpg"
+    },
+    {
+        "name": "KARMA YOGA -by-SWAMI VIVEKANANDA",
+        "file": "./pdfs/KARMA YOGA -by-SWAMI VIVEKANANDA.pdf",
+        "cover": "./pdfs/KARMA YOGA -by-SWAMI VIVEKANANDA.jpg"
+    },
+    {
+        "name": "Man's Search for Meaning ShudhDesiBooks",
+        "file": "./pdfs/Man's Search for Meaning ShudhDesiBooks.pdf",
+        "cover": "./pdfs/Man's Search for Meaning ShudhDesiBooks.jpg"
+    },
+    {
+        "name": "Mantak Chia - Awaken Healing Light",
+        "file": "./pdfs/Mantak Chia - Awaken Healing Light.pdf",
+        "cover": "./pdfs/Mantak Chia - Awaken Healing Light.jpg"
+    },
+    {
+        "name": "Mrityu_Door_Upaay",
+        "file": "./pdfs/Mrityu_Door_Upaay.pdf",
+        "cover": "./pdfs/Mrityu_Door_Upaay.jpg"
+    },
+    {
+        "name": "Napoleon Hill - Think & Grow Rich - E-book",
+        "file": "./pdfs/Napoleon Hill - Think & Grow Rich - E-book.pdf",
+        "cover": "./pdfs/Napoleon Hill - Think & Grow Rich - E-book.jpg"
+    },
+    {
+        "name": "Osho - the Book of secrets",
+        "file": "./pdfs/Osho - the Book of secrets.pdf",
+        "cover": "./pdfs/Osho - the Book of secrets.jpg"
+    },
+    {
+        "name": "RAJA YOGA -by-SWAMI VIVEKANANDA",
+        "file": "./pdfs/RAJA YOGA -by-SWAMI VIVEKANANDA.pdf",
+        "cover": "./pdfs/RAJA YOGA -by-SWAMI VIVEKANANDA.jpg"
+    },
+    {
+        "name": "Rajyog",
+        "file": "./pdfs/Rajyog.pdf",
+        "cover": "./pdfs/Rajyog.jpg"
+    },
+    {
+        "name": "Rich Dad Poor Dad ( PDFDrive )-482",
+        "file": "./pdfs/Rich Dad Poor Dad ( PDFDrive )-482.pdf",
+        "cover": "./pdfs/Rich Dad Poor Dad ( PDFDrive )-482.jpg"
+    },
+    {
+        "name": "The 5 AM Club_ Own Your Morning. Elevate Your Life",
+        "file": "./pdfs/The 5 AM Club_ Own Your Morning. Elevate Your Life.pdf",
+        "cover": "./pdfs/The 5 AM Club_ Own Your Morning. Elevate Your Life.jpg"
+    },
+    {
         "name": "The Intelligent Investor By Benjamin Graham",
         "file": "./pdfs/The Intelligent Investor By Benjamin Graham.pdf",
         "cover": "./pdfs/The Intelligent Investor By Benjamin Graham.jpg"
+    },
+    {
+        "name": "The Monk Who Sold His Ferrari ( PDFDrive.com )",
+        "file": "./pdfs/The Monk Who Sold His Ferrari ( PDFDrive.com ).pdf",
+        "cover": "./pdfs/The Monk Who Sold His Ferrari ( PDFDrive.com ).jpg"
+    },
+    {
+        "name": "The Richest Man In Babylon",
+        "file": "./pdfs/The Richest Man In Babylon.pdf",
+        "cover": "./pdfs/The Richest Man In Babylon.jpg"
+    },
+    {
+        "name": "the subtle art of not giving a fuck ( PDFDrive )",
+        "file": "./pdfs/the subtle art of not giving a fuck ( PDFDrive ).pdf",
+        "cover": "./pdfs/the subtle art of not giving a fuck ( PDFDrive ).jpg"
+    },
+    {
+        "name": "the-80-20-principle-to-achieve-more-with-less-effort1",
+        "file": "./pdfs/the-80-20-principle-to-achieve-more-with-less-effort1.pdf",
+        "cover": "./pdfs/the-80-20-principle-to-achieve-more-with-less-effort1.jpg"
+    },
+    {
+        "name": "The_White_Tiger",
+        "file": "./pdfs/The_White_Tiger.pdf",
+        "cover": "./pdfs/The_White_Tiger.jpg"
+    },
+    {
+        "name": "Who_Will_Cry_When_You_Die_Life_Lessons_From_The_Monk_Who_Sold_His",
+        "file": "./pdfs/Who_Will_Cry_When_You_Die_Life_Lessons_From_The_Monk_Who_Sold_His.pdf",
+        "cover": "./pdfs/Who_Will_Cry_When_You_Die_Life_Lessons_From_The_Monk_Who_Sold_His.jpg"
+    },
+    {
+        "name": "YOGA IN DAILY LIFE -by-SWAMI VIVEKANANDA",
+        "file": "./pdfs/YOGA IN DAILY LIFE -by-SWAMI VIVEKANANDA.pdf",
+        "cover": "./pdfs/YOGA IN DAILY LIFE -by-SWAMI VIVEKANANDA.jpg"
+    },
+    {
+        "name": "\u0917\u0940\u0924\u093e \u0928\u0935\u0928\u0940\u0924 - (\u0935\u0948\u0926\u093f\u0915 \u0938\u093f\u0926\u094d\u0927\u093e\u0902\u0924 \u091f\u0940\u0915\u093e)",
+        "file": "./pdfs/\u0917\u0940\u0924\u093e \u0928\u0935\u0928\u0940\u0924 - (\u0935\u0948\u0926\u093f\u0915 \u0938\u093f\u0926\u094d\u0927\u093e\u0902\u0924 \u091f\u0940\u0915\u093e).pdf",
+        "cover": "./pdfs/\u0917\u0940\u0924\u093e \u0928\u0935\u0928\u0940\u0924 - (\u0935\u0948\u0926\u093f\u0915 \u0938\u093f\u0926\u094d\u0927\u093e\u0902\u0924 \u091f\u0940\u0915\u093e).jpg"
     }
 ]

@@ -1,0 +1,111 @@
+/* General Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    color: #007BFF;
+}
+
+.header p {
+    font-size: 16px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.book-search {
+    margin: 20px auto;
+    max-width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.book-search input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Book List */
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-item {
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+.book-item:hover {
+    transform: scale(1.05);
+    background-color: #d9d5d5;  /* Off-white background on hover */
+}
+
+/* Book Cover Image */
+.book-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Book Title */
+.book-item h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;  /* Add ellipsis for overflow */
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Book Title link */
+.book-item a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Additional Styling for Better Readability */
+.book-item h3, .book-item a {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
