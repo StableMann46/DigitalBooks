@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Search</title>
+    <script>
+        function searchBook() {
+            let query = document.getElementById("search-input").value.trim();
+            if (query !== "") {
+                alert("Searching for: " + query);
+                // You can add actual book search functionality here (API integration).
+            }
+        }
+    </script>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; margin: 50px; background-color: #f4f4f4;">
+
+    <h2 style="color: #333;">Book Search</h2>
+
+    <div style="margin: 20px auto; max-width: 400px; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+        <input 
+            type="text" 
+            id="search-input" 
+            placeholder="Enter book name..." 
+            style="width: 80%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"
+        >
+        <button 
+            onclick="searchBook()" 
+            style="padding: 10px 15px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Search
+        </button>
+    </div>
+
+</body>
+</html>
