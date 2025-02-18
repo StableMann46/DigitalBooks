@@ -5,13 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Search</title>
     <script>
-        function searchBook() {
-            let query = document.getElementById("search-input").value.trim();
-            if (query !== "") {
-                alert("Searching for: " + query);
-                // You can add actual book search functionality here (API integration).
+        async function loadBooks() {
+            try {
+                let response = await fetch("books.json");
+                let books = await response.json();
+                let bookList = document.getElementById("book-list");
+
+                bookList.innerHTML = books.map(book => `<li>${book}</li>`).join("");
+            } catch (error) {
+                console.error("Error loading books:", error);
             }
         }
+
+        function searchBook() {
+            let query = document.getElementById("search-input").value.trim().toLowerCase();
+            let books = document.querySelectorAll("#book-list li");
+
+            books.forEach(book => {
+                book.style.display = book.textContent.toLowerCase().includes(query) ? "block" : "none";
+            });
+        }
+
+        window.onload = loadBooks;
     </script>
 </head>
 <body style="font-family: Arial, sans-serif; text-align: center; margin: 50px; background-color: #f4f4f4;">
@@ -24,13 +39,12 @@
             id="search-input" 
             placeholder="Enter book name..." 
             style="width: 80%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"
+            onkeyup="searchBook()"
         >
-        <button 
-            onclick="searchBook()" 
-            style="padding: 10px 15px; background-color: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer;">
-            Search
-        </button>
     </div>
+
+    <h3>Available Books:</h3>
+    <ul id="book-list" style="list-style-type: none; padding: 0;"></ul>
 
 </body>
 </html>
