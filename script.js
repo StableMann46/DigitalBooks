@@ -1,3 +1,4 @@
+// Load Books and Display on Page
 async function loadBooks() {
     try {
         let response = await fetch("books.json");
@@ -19,6 +20,7 @@ async function loadBooks() {
     }
 }
 
+// Search Book Functionality
 function searchBook() {
     let query = document.getElementById("search-input").value.trim().toLowerCase();
     let books = document.querySelectorAll(".book-item");
@@ -29,4 +31,30 @@ function searchBook() {
     });
 }
 
+// Dark Mode Toggle Functionality
+document.addEventListener("DOMContentLoaded", () => {
+    const toggleButton = document.getElementById("dark-mode-toggle");
+
+    // Check user preference in localStorage
+    if (localStorage.getItem("darkMode") === "enabled") {
+        document.body.classList.add("dark-mode");
+        toggleButton.textContent = "☀️ Light Mode";
+    }
+
+    // Toggle Dark Mode on Button Click
+    toggleButton.addEventListener("click", () => {
+        document.body.classList.toggle("dark-mode");
+        
+        // Store user preference in localStorage
+        if (document.body.classList.contains("dark-mode")) {
+            localStorage.setItem("darkMode", "enabled");
+            toggleButton.textContent = "☀️ Light Mode";
+        } else {
+            localStorage.setItem("darkMode", "disabled");
+            toggleButton.textContent = "🌙 Dark Mode";
+        }
+    });
+});
+
+// Load books on page load
 window.onload = loadBooks;
