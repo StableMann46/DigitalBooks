@@ -11,7 +11,9 @@
                 let books = await response.json();
                 let bookList = document.getElementById("book-list");
 
-                bookList.innerHTML = books.map(book => `<li>${book}</li>`).join("");
+                bookList.innerHTML = books.map(book => 
+                    `<li><a href="${book.file}" target="_blank">${book.name}</a></li>`
+                ).join("");
             } catch (error) {
                 console.error("Error loading books:", error);
             }
