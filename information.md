@@ -176,7 +176,37 @@ You can now share this URL with anyone, and they will be able to access your web
 Let me know if you need further assistance!
 
 
+🔥 Step 5: Add Firebase to Your Website
+Go to Project Settings (⚙️ in Firebase Console)
+Scroll to Your Apps → Click "Add App" → Select Web App
+Enter an App nickname (e.g., "BookApp")
+Click Register App → Copy the Firebase config
+Paste the Firebase config inside your HTML (index.html before script.js)
 
+
+npm install firebase
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBMvJFtYMDxWo6NXCh4I6A4esI2bWVsAyk",
+  authDomain: "pustakalay-72dc1.firebaseapp.com",
+  projectId: "pustakalay-72dc1",
+  storageBucket: "pustakalay-72dc1.firebasestorage.app",
+  messagingSenderId: "385247524092",
+  appId: "1:385247524092:web:387d728609f0944564d379",
+  measurementId: "G-ZYJGNZZE69"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 
 
